@@ -9,7 +9,7 @@ form.addEventListener('submit', (e) => {
 })
 
 async function getWeather(location) {
-    const apiKey = '738d8b83848257f7932f37a1496e789a'
+    const apiKey = 'YOUR KEY'
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`;
 
     try {
